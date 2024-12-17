@@ -79,4 +79,5 @@ document.querySelector(".again").addEventListener('click', function() {
     document.querySelector(".score").textContent = score;
     document.querySelector(".number").textContent = "?";
     document.querySelector(".attempts").textContent = attempts;
+    checkBtn.classList.remove("disabled");
 });
